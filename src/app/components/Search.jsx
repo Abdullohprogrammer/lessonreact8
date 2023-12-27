@@ -60,13 +60,13 @@ const Search = ({ setUserData, setLoading }) => {
 		<form onSubmit={handleSubmit}>
 			<Input
 				variant={"outline"}
-				placeholder={"Type a username (i.e. burakorkmez)"}
+				placeholder={"Qidirin"}
 				focusBorderColor='green.500'
 				value={query}
 				onChange={(e) => setQuery(e.target.value)}
 			/>
 			<Button size='md' type='submit' colorScheme='whatsapp' mt={4} disabled={!query} opacity={!query ? 0.5 : 1}>
-				Search
+				qidirish
 			</Button>
 		</form>
 	);
